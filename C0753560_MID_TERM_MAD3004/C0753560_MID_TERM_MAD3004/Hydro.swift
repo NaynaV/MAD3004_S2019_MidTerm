@@ -19,5 +19,13 @@ class Hydro : Bill
         super.init(bilId: bilId, bildate: bildate, bilType: bilType, totalBill: totalBill)
     }
     
+    override func Display() {
+        print("********* Hydro Bill Details ***********")
+        print("Agency Name : \(self.agencyName!) ")
+        print("Unit Consumed : \(self.unitConsumed!) ")
+        
+      
+    }
+    
     
 }
