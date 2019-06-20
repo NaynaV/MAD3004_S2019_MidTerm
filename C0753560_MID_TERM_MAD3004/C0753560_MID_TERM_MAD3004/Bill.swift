@@ -16,9 +16,12 @@ class Bill{
     var totalBillAmt : Float?
     
     
-    init()
+    init(bilId : Int, bildate : Date, bilType : String, totalBill : Float)
     {
-        
+        self.billId = bilId
+        self.billDate = bildate
+        self.billType = bilType
+        self.totalBillAmt = totalBill
     }
 
     
