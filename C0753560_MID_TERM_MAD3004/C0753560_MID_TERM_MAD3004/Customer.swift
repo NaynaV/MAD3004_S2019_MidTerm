@@ -22,19 +22,27 @@ class Customer {
     
     var custEmail : String?
  
-    var arrayOfBills : [Bill] = [Bill]()
+    var arrayBills : [Bill] = [Bill]()
     
     
     var totalBill : Float
     {
         var total : Float = 0
-        for bill in arrayOfBills
+        for bill in arrayBills
         {
             total = total + bill.totalBillAmt!
         }
         return total
     }
    
+    init(customerid : Int,firstName : String,lastName : String,email : String,arraybills : [Bill])
+    {
+        self.customerId = customerid
+        self.custFname = firstName
+        self.custLname = lastName
+        self.custEmail = email
+        self.arrayBills = arraybills
+    }
 
-   
+    
 }
