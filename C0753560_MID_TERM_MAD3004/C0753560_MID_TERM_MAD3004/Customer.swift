@@ -23,7 +23,17 @@ class Customer {
     var custEmail : String?
  
     var arrayOfBills : [Bill] = [Bill]()
-  
+    
+    
+    var totalBill : Float
+    {
+        var total : Float = 0
+        for bill in arrayOfBills
+        {
+            total = total + bill.totalBillAmt!
+        }
+        return total
+    }
    
 
    

@@ -9,4 +9,4 @@
 import Foundation
 
 
-
+var I1 = Internet(bilId: <#T##Int#>, bildate: <#T##Date#>, bilType: <#T##String#>, totalBill: <#T##Float#>, providername: <#T##String#>, dataused: <#T##String#>)
