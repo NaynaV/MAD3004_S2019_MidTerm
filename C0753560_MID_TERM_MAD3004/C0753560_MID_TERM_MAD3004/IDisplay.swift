@@ -1,5 +1,5 @@
 //
-//  main.swift
+//  IDisplay.swift
 //  C0753560_MID_TERM_MAD3004
 //
 //  Created by MacStudent on 2019-06-20.
@@ -8,5 +8,3 @@
 
 import Foundation
 
-
-print("Initial commit !!")
