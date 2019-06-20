@@ -7,3 +7,12 @@
 //
 
 import Foundation
+
+
+extension Int
+{
+    public func unit() -> String
+    {
+        return String.init(format: "%d Units", self)
+    }
+}
