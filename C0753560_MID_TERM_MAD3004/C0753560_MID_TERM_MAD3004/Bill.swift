@@ -26,10 +26,10 @@ class Bill : IDisplay{
 
     func Display() {
         print("******** Bill Details ********")
-        print("Bill Id is : \(String(describing: self.billId))")
-        print("Bill Date is : \(self.billDate)")
-        print("Bill Type is : \(self.billType)")
-        print("Bill Total Amount is : \(self.totalBillAmt)")
+        print("Bill Id is : \(String(describing: self.billId!))")
+        print("Bill Date is : \(self.billDate.getForamttedDate())")
+        print("Bill Type is : \(self.billType!)")
+        print("Bill Total Amount is : \(self.totalBillAmt!)")
         
         
     }
