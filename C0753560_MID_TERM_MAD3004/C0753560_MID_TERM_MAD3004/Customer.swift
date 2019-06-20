@@ -14,9 +14,17 @@ class Customer {
     let customerId  : Int?
     var custFname : String?
     var custLname : String?
+    
+    var fullName : String
+    {
+        return "\(self.custFname) \(self.custFname)"
+    }
+    
     var custEmail : String?
-    var arrayBill:[Bill] = [Bill]()
-    var totalPayment : Float?
-    
-    
+ 
+    var arrayOfBills : [Bill] = [Bill]()
+  
+   
+
+   
 }
