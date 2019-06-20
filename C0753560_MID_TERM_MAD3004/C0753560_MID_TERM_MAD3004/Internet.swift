@@ -7,3 +7,15 @@
 //
 
 import Foundation
+
+class Internet : Bill{
+    
+    var providerName  : String?
+    var dataUsed : String?
+    
+    init(bilId: Int, bildate: Date, bilType: String, totalBill: Float, providername : String, dataused :String) {
+        self.providerName = providername
+        self.dataUsed = dataused
+        super.init(bilId: bilId, bildate: bildate, bilType: bilType, totalBill: totalBill)
+    }
+}
