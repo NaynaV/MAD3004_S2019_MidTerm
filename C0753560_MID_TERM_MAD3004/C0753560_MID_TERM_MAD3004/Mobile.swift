@@ -7,8 +7,14 @@
 //
 
 import Foundation
-class Mobile : Bill{
-    
+class Mobile : Bill
+{
+
+    var mobManufacturerName : String?
+    var planName :String?
+    var mobileNo : String?
+    var internetUsed : String?
+    var minuteUsed : String?
     
     
 }
