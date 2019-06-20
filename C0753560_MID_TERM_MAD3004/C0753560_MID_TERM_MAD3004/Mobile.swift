@@ -17,4 +17,14 @@ class Mobile : Bill
     var minuteUsed : String?
     
     
+    init(bilId: Int, bildate: Date, bilType: String, totalBill: Float, manufName : String, planname : String, mobno : String, netused : String, minused : String) {
+        self.mobManufacturerName = manufName
+        self.planName = planname
+        self.mobileNo = mobno
+        self.internetUsed = netused
+        self.minuteUsed = minused
+        super.init(bilId: bilId, bildate: bildate, bilType: bilType, totalBill: totalBill)
+    }
+    
+    
 }
