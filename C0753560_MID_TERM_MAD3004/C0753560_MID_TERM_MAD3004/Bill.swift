@@ -1,5 +1,5 @@
 //
-//  IDisplay.swift
+//  Bill.swift
 //  C0753560_MID_TERM_MAD3004
 //
 //  Created by MacStudent on 2019-06-20.
@@ -8,6 +8,8 @@
 
 import Foundation
 
-protocol IDisplay {
-    func Display()
+class Bill{
+    
+    
+    
 }
