@@ -10,6 +10,16 @@ import Foundation
 
 class Bill{
     
+    let billId : Int?
+    var billDate = Date()
+    var billType : String?
+    var totalBillAmt : Float?
     
+    
+    init()
+    {
+        
+    }
+
     
 }
