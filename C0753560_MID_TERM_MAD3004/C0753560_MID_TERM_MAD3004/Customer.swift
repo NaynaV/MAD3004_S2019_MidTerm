@@ -8,4 +8,15 @@
 
 import Foundation
 
-class Customer : IDisplay{}
+class Customer {
+    
+    
+    let customerId  : Int?
+    var custFname : String?
+    var custLname : String?
+    var custEmail : String?
+    var arrayBill:[Bill] = [Bill]()
+    var totalPayment : Float?
+    
+    
+}
