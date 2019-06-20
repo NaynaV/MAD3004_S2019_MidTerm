@@ -15,6 +15,7 @@
 		9B42E60F22BC47FD009AFC5B /* Mobile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B42E60E22BC47FD009AFC5B /* Mobile.swift */; };
 		9B42E61222BC4B52009AFC5B /* Hydro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B42E61122BC4B52009AFC5B /* Hydro.swift */; };
 		9B42E61422BC4BCE009AFC5B /* UnitExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B42E61322BC4BCE009AFC5B /* UnitExtension.swift */; };
+		9B42E61622BC4DE7009AFC5B /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B42E61522BC4DE7009AFC5B /* Customer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,6 +40,7 @@
 		9B42E60E22BC47FD009AFC5B /* Mobile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobile.swift; sourceTree = "<group>"; };
 		9B42E61122BC4B52009AFC5B /* Hydro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hydro.swift; sourceTree = "<group>"; };
 		9B42E61322BC4BCE009AFC5B /* UnitExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitExtension.swift; sourceTree = "<group>"; };
+		9B42E61522BC4DE7009AFC5B /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				9B42E60C22BC45C2009AFC5B /* Internet.swift */,
 				9B42E60E22BC47FD009AFC5B /* Mobile.swift */,
 				9B42E61122BC4B52009AFC5B /* Hydro.swift */,
+				9B42E61522BC4DE7009AFC5B /* Customer.swift */,
 			);
 			path = C0753560_MID_TERM_MAD3004;
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 				9B42E61422BC4BCE009AFC5B /* UnitExtension.swift in Sources */,
 				9B42E5FF22BC3B6E009AFC5B /* main.swift in Sources */,
 				9B42E60F22BC47FD009AFC5B /* Mobile.swift in Sources */,
+				9B42E61622BC4DE7009AFC5B /* Customer.swift in Sources */,
 				9B42E60B22BC4329009AFC5B /* Date.swift in Sources */,
 				9B42E60D22BC45C2009AFC5B /* Internet.swift in Sources */,
 			);
