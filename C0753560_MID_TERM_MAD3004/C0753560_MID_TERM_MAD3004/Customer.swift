@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Customer {
+class Customer :IDisplay{
     
     
     let customerId  : Int?
@@ -43,6 +43,12 @@ class Customer {
         self.custEmail = email
         self.arrayBills = arraybills
     }
-
-    
+    func Display()
+    {
+        print("******** Customer Details ********")
+        print("Customer Id : \(self.customerId!)")
+        print("Customer Full Name : \(self.fullName)")
+        print("Email ID : \(self.custEmail!)")
+        
+    }
 }
