@@ -21,3 +21,8 @@ var m1 = Mobile(bilId: 1, bildate: Date(), bilType: "Mobile", totalBill: 55.20, 
 var m2 = Mobile(bilId: 2, bildate: Date(), bilType: "Mobile", totalBill: 85.20, manufName: "Iphone", planname: "Mega", mobno: "+1(226)477-8585", netused: "45.23GB", minused: "800")
 
 var m3 = Mobile(bilId: 3, bildate: Date(), bilType: "Mobile", totalBill: 55.20, manufName: "Samsung", planname: "Daily", mobno: "+1(202)447-9658", netused: "75.58GB", minused: "900")
+
+
+var h1 = Hydro(bilId: 1, bildate: Date(), bilType: "Hydro", totalBill: 40.00, agencyname: "Nene", unitconsumed: 50)
+var h2 = Hydro(bilId: 2, bildate: Date(), bilType: "Hydro", totalBill: 50.00, agencyname: "jojo", unitconsumed: 120)
+var h3 = Hydro(bilId: 3, bildate: Date(), bilType: "Hydro", totalBill: 70.00, agencyname: "Royu", unitconsumed: 302)
