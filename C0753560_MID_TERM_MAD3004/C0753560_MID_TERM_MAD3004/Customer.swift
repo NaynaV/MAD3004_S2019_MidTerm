@@ -44,7 +44,7 @@ class Customer :IDisplay{
         self.arrayBills = arraybills
     }
      private static var dictBills=[Int:Bill]()
-    
+    private static var dictCustomers=[Int:Customer]()
   /*  static func addcustomer(customer: Customer)
     {
         dictBills.updateValue(customer, forKey: customer.customerId!)
@@ -64,6 +64,17 @@ class Customer :IDisplay{
         print("****************************************************************************")
         print("Total Payment is : \(self.totalBill.currency())\n\n\n")
         
+        
+    }
+    
+    static func getCustById(custmorId:Int) -> Customer? {
+        
+        if let customer = dictCustomers[custmorId] {
+            return customer as Customer
+        }
+        else {
+            return nil
+        }
         
     }
 }

@@ -32,7 +32,7 @@ class Mobile : Bill
         print("Bill Id is : \(String(describing: self.billId!))")
         print("Bill Date is : \(self.billDate.getForamttedDate())")
         print("Bill Type is : \(self.billType!)")
-        print("Bill Total Amount is : \(self.totalBillAmt?.currency())")
+        print("Bill Total Amount is : \(self.totalBillAmt!.currency())")
         print("Manufacturer Name : \(self.mobManufacturerName!) ")
         print("Plan Name : \(self.planName!) ")
         
