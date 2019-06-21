@@ -17,7 +17,7 @@ class Customer :IDisplay{
     
     var fullName : String
     {
-        return "\(self.custFname) \(self.custFname)"
+        return "\(self.custFname!) \(self.custLname!)"
     }
     
     var custEmail : String?
@@ -56,6 +56,14 @@ class Customer :IDisplay{
         print("Customer Id : \(self.customerId!)")
         print("Customer Full Name : \(self.fullName)")
         print("Email ID : \(self.custEmail!)")
+        
+        
+       // print("Bill ID","MANUFACTURER NAME","PRODUCT ID"," PRODUCT NAME","PRICE","QUANTITY")
+        for bill in self.arrayBills {
+            bill.Display()        }
+        print("****************************************************************************")
+        print("Total Payment is : \(self.totalBill.currency())\n\n\n")
+        
         
     }
 }

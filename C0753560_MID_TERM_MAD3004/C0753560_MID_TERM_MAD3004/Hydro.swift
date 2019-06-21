@@ -21,6 +21,10 @@ class Hydro : Bill
     
     override func Display() {
         print("********* Hydro Bill Details ***********")
+        print("Bill Id is : \(String(describing: self.billId!))")
+        print("Bill Date is : \(self.billDate.getForamttedDate())")
+        print("Bill Type is : \(self.billType!)")
+        print("Bill Total Amount is : \(self.totalBillAmt?.currency())")
         print("Agency Name : \(self.agencyName!) ")
         print("Unit Consumed : \(self.unitConsumed!.unit()) ")
         

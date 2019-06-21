@@ -22,6 +22,10 @@ class Internet : Bill{
     
     override func Display() {
         print("********* Internet Bill Details ***********")
+        print("Bill Id is : \(String(describing: self.billId!))")
+        print("Bill Date is : \(self.billDate.getForamttedDate())")
+        print("Bill Type is : \(self.billType!)")
+        print("Bill Total Amount is : \(self.totalBillAmt!.currency())")
         print("Provider Name : \(self.providerName!) ")
         print("Internet Usage : \(self.dataUsed!)")
     }
