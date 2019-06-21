@@ -56,9 +56,7 @@ class Customer :IDisplay{
         print("Customer Id : \(self.customerId!)")
         print("Customer Full Name : \(self.fullName)")
         print("Email ID : \(self.custEmail!)")
-        
-        
-       // print("Bill ID","MANUFACTURER NAME","PRODUCT ID"," PRODUCT NAME","PRICE","QUANTITY")
+    
         for bill in self.arrayBills {
             bill.Display()        }
         print("\n****************************************************************************")
@@ -90,6 +88,5 @@ class Customer :IDisplay{
         }
         
     }
-    
-  
+   
 }
