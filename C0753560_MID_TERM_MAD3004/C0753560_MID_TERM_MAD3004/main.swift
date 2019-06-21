@@ -37,7 +37,7 @@ c2.Display()
 var c3 = Customer(customerid: 3, firstName: "Karan", lastName: "Singh", email: "KKsingh98@gmail.com", arraybills: [h2])
 c3.Display()
 
-print("\n\n////////////////Selected Customer /////////////////")
+print("\n\n------------Selected Customer ------------")
 if let selectCustomer = Customer.getCustById(custmorId: 1)
 {
     print(selectCustomer.Display())

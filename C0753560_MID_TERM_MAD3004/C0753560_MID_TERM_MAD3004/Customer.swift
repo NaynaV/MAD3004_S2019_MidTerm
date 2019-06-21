@@ -66,7 +66,7 @@ class Customer :IDisplay{
         
          print("\n****************************************************************************")
     }
-
+/*
     static func sortByBill()
     {
         let newcust = dictBills.sorted(by:   {b1, b2 in
@@ -78,9 +78,9 @@ class Customer :IDisplay{
             b.value.display()
         }
     }
-    
+ */
  
-    static func getCustById(custmorId:Int) -> Customer? {
+    static func getCustById(custmorId:Int) -> Customer! {
         
         if let customer = dictCustomers[custmorId] {
             return customer as Customer
