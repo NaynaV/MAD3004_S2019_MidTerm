@@ -17,6 +17,7 @@
 		9B42E61422BC4BCE009AFC5B /* UnitExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B42E61322BC4BCE009AFC5B /* UnitExtension.swift */; };
 		9B42E61622BC4DE7009AFC5B /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B42E61522BC4DE7009AFC5B /* Customer.swift */; };
 		9B42E61822BC5550009AFC5B /* currencyExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B42E61722BC5550009AFC5B /* currencyExtension.swift */; };
+		9B42E61A22BC6487009AFC5B /* emailError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B42E61922BC6487009AFC5B /* emailError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +44,7 @@
 		9B42E61322BC4BCE009AFC5B /* UnitExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitExtension.swift; sourceTree = "<group>"; };
 		9B42E61522BC4DE7009AFC5B /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
 		9B42E61722BC5550009AFC5B /* currencyExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = currencyExtension.swift; sourceTree = "<group>"; };
+		9B42E61922BC6487009AFC5B /* emailError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emailError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 				9B42E60A22BC4329009AFC5B /* Date.swift */,
 				9B42E61322BC4BCE009AFC5B /* UnitExtension.swift */,
 				9B42E61722BC5550009AFC5B /* currencyExtension.swift */,
+				9B42E61922BC6487009AFC5B /* emailError.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -158,6 +161,7 @@
 				9B42E60622BC3F09009AFC5B /* IDisplay.swift in Sources */,
 				9B42E60822BC41FF009AFC5B /* Bill.swift in Sources */,
 				9B42E61422BC4BCE009AFC5B /* UnitExtension.swift in Sources */,
+				9B42E61A22BC6487009AFC5B /* emailError.swift in Sources */,
 				9B42E5FF22BC3B6E009AFC5B /* main.swift in Sources */,
 				9B42E60F22BC47FD009AFC5B /* Mobile.swift in Sources */,
 				9B42E61622BC4DE7009AFC5B /* Customer.swift in Sources */,
