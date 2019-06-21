@@ -43,6 +43,13 @@ class Customer :IDisplay{
         self.custEmail = email
         self.arrayBills = arraybills
     }
+     private static var dictBills=[Int:Bill]()
+    
+  /*  static func addcustomer(customer: Customer)
+    {
+        dictBills.updateValue(customer, forKey: customer.customerId!)
+    }
+    */
     func Display()
     {
         print("******** Customer Details ********")

@@ -26,3 +26,11 @@ var m3 = Mobile(bilId: 3, bildate: Date(), bilType: "Mobile", totalBill: 55.20, 
 var h1 = Hydro(bilId: 1, bildate: Date(), bilType: "Hydro", totalBill: 40.00, agencyname: "Nene", unitconsumed: 50)
 var h2 = Hydro(bilId: 2, bildate: Date(), bilType: "Hydro", totalBill: 50.00, agencyname: "jojo", unitconsumed: 120)
 var h3 = Hydro(bilId: 3, bildate: Date(), bilType: "Hydro", totalBill: 70.00, agencyname: "Royu", unitconsumed: 302)
+
+
+var c1 = Customer(customerid: 1, firstName: "Naina", lastName: "Vaghasiya", email: "nainaV@gmail.com", arraybills: [I1,m1])
+c1.Display()
+
+var c2 = Customer(customerid: 2, firstName: "Shivani", lastName: "Dhiman", email: "Shivi@gmail.com", arraybills: [h1,I2])
+c1.Display()
+
