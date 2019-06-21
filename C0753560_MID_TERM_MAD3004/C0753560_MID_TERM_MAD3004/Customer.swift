@@ -61,12 +61,25 @@ class Customer :IDisplay{
        // print("Bill ID","MANUFACTURER NAME","PRODUCT ID"," PRODUCT NAME","PRICE","QUANTITY")
         for bill in self.arrayBills {
             bill.Display()        }
-        print("****************************************************************************")
+        print("\n****************************************************************************")
         print("Total Payment is : \(self.totalBill.currency())\n\n\n")
         
+         print("\n****************************************************************************")
+    }
+
+    static func sortByBill()
+    {
+        let newcust = dictBills.sorted(by:   {b1, b2 in
+            return b1.value.totalBillAmt > b2.value.totalBillAmt
+        })
         
+        for b in newcust
+        {
+            b.value.display()
+        }
     }
     
+ 
     static func getCustById(custmorId:Int) -> Customer? {
         
         if let customer = dictCustomers[custmorId] {
@@ -77,4 +90,6 @@ class Customer :IDisplay{
         }
         
     }
+    
+  
 }

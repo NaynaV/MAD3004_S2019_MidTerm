@@ -27,7 +27,7 @@ class Mobile : Bill
     }
     
     override func Display() {
-        print("********* Mobile Bill Details ***********")
+        print("\n************* Mobile Bill Details *****************")
         
         print("Bill Id is : \(String(describing: self.billId!))")
         print("Bill Date is : \(self.billDate.getForamttedDate())")

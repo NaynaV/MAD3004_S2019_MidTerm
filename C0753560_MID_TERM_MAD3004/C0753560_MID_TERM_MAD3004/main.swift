@@ -28,9 +28,27 @@ var h2 = Hydro(bilId: 2, bildate: Date(), bilType: "Hydro", totalBill: 50.00, ag
 var h3 = Hydro(bilId: 3, bildate: Date(), bilType: "Hydro", totalBill: 70.00, agencyname: "Royu", unitconsumed: 302)
 
 
-var c1 = Customer(customerid: 1, firstName: "Naina", lastName: "Vaghasiya", email: "nainaV@gmail.com", arraybills: [I1,m1])
+var c1 = Customer(customerid: 1, firstName: "Naina", lastName: "Vaghasiya", email: "nainaVaghasiya33@gmail.com", arraybills: [I1,m1])
 c1.Display()
 
-var c2 = Customer(customerid: 2, firstName: "Shivani", lastName: "Dhiman", email: "Shivi@gmail.com", arraybills: [h1,I2])
-c1.Display()
+var c2 = Customer(customerid: 2, firstName: "Shivani", lastName: "Dhiman", email: "Shividhima90@gmail.com", arraybills: [h1,I3,m3])
+c2.Display()
 
+var c3 = Customer(customerid: 3, firstName: "Karan", lastName: "Singh", email: "KKsingh98@gmail.com", arraybills: [h2])
+c3.Display()
+
+print("\n\n////////////////Selected Customer /////////////////")
+if let selectCustomer = Customer.getCustById(custmorId: 1)
+{
+    print(selectCustomer.Display())
+}else{
+    print("No Such Customer is there")
+}
+
+print("-----------------------------------------------")
+if let selectCustomer = Customer.getCustById(custmorId: 5)
+{
+    print(selectCustomer.Display())
+}else{
+    print("No Such Customer is there")
+}
